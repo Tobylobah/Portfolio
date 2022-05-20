@@ -1,0 +1,247 @@
+html, body {
+  width: 100%;
+  height: 100%;
+
+}
+.header{
+    background-image: linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url(images/bg6.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: cursive;
+    font-family: 'Kurale' serif;
+
+}
+.sub-header {
+    background-color:/*rgb(9, 19, 32); */black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width:100%;
+    height:10vh;
+    
+    
+}
+
+
+nav {
+    display: flex;
+ 
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    flex: 1;
+    text-align: right;
+} 
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+   padding:8px 12px;
+    position: relative;
+
+  
+}
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+   
+}
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s; 
+}
+
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+h3{
+    color:white;  
+    font-family: cursive;
+    text-align: center;
+    font-size: 45px;
+    line-height: 0;
+  
+ 
+}
+.welcome{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 140px;
+    
+  
+    font-family: cursive;
+     /*font-family: 'Kurale' serif;
+ font-family: 'Allura', cursive;
+   font-family: 'Italianno', cursive;*/
+
+
+}
+.yo{
+    color:white;
+    font-family: cursive;
+    text-align: center;
+    
+    line-height: 0.2;  
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size:20px;
+}
+button{
+    border:1px inset  goldenrod;
+    color:white;
+    border-radius:60px;
+    width:90px;
+    padding:12px 12px;
+    margin: auto;
+    margin-top: 35px;
+    text-align:center ;
+  background-color:transparent;
+  margin-left:600px;
+  
+}
+button:hover{
+    background-color:goldenrod;
+}
+button:focus{
+    background-color:goldenrod;
+}
+button:visited{
+    background-color:goldenrod;
+}
+strong{
+    color:green;
+    
+}
+.h2-about{
+    text-align: center;
+}
+.h1-about{
+    text-align: center;
+font-family: 'Allura', cursive;
+font-size: 50px;
+}
+
+.h2-about{
+   text-align: left;
+    padding-left: 10px;
+font-family: cursive;
+
+}
+.p-about{
+    font-family: serif;
+    padding-left: 10px;
+}
+.flex{
+    display: flex;
+    justify-content:space-evenly ;
+    font-size: 20px;
+    text-align: center;
+    color:rgb(31, 30, 30);
+}
+
+.flex{
+    display: flex;
+    justify-content:space-evenly ;
+    font-size: 20px;
+    text-align: center;
+    color:rgb(31, 30, 30);
+    color:white;
+    background-color: green;
+}
+.border{
+margin-top: 40px;
+
+height:100px;
+padding:60px;
+}
+.bo{
+    font-size: medium;
+}
+
+.p-web{
+    color:aliceblue;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 35px;
+    font-family: sans-serif;
+   
+text-align: center;
+border:1px solid green;
+background-color: green;
+  border-radius:40px;
+  width:400px;
+  text-align:center;
+  
+    font-family: serif;
+}
+.wid-flex{
+    display:flex;
+  justify-content:space-between;
+}
+.portfolio-flex{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+ .column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+   padding-top:60px;
+   margin-left:40px;
+}
+  .row{
+    display:flex;
+    flex-wrap:wrap;
+  }
+
+
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+  width:240px;
+  height:200px;
+}
+
+.column img:hover {
+  opacity: 1;
+
+}
+
+
+.row:after {
+  content: "";
+
+  clear: both;
+}
+
+
+.container {
+  position: relative;
+  display: none;
+}
+
+
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
